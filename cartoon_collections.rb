@@ -10,13 +10,15 @@ end
 
 def summon_captain_planet(array)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  new_array =[]
    i = 0 
    while i < array.length
   new_array = array.capitalize + "!"
   i +=1
  end
  new_array
-end
+end 
+summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls# code an argument here
   # Your code here
