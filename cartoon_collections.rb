@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
   i= 0 
   while i< array.length 
   puts "#{i}. #{array[i]}"
-  i += 1
+  i = i+ 1
 end 
 end
 def summon_captain_planet(planeteer_calls)
