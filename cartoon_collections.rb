@@ -12,8 +12,7 @@ def summon_captain_planet(array)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
    i = 0 
    while i < array.length
-  new_array = array.capitalize
-  puts "#{new_array}!"
+  new_array = array.capitalize + "!"
  end
  new_array
 end
