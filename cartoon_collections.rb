@@ -9,7 +9,11 @@ end
 end
 
 def summon_captain_planet(array)
-  
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+   i = 0 
+   while i < array.length
+   puts planeteer_calls.map.capitalize
+ end
 end
 
 def long_planeteer_calls# code an argument here
