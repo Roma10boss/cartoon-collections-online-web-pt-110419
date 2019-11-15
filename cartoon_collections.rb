@@ -1,7 +1,11 @@
 def roll_call_dwarves(array)
   # Your code here
   array =["Doc", "Dopey", "Bashful", "Grumpy"]
-  print array.join
+  i= 0 
+  while i< array.length 
+  puts "#{i}"
+  i += 1
+end 
 end
 
 def summon_captain_planet# code an argument here
