@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   # Your code here
-  array =[]
-  yeild array
+  array =["Doc", "Dopey", "Bashful", "Grumpy"]
+  yeild array.join
 end
 
 def summon_captain_planet# code an argument here
